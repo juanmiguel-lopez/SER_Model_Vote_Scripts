@@ -40,6 +40,6 @@ Results are stored to specific folders, so the outcomes of each step are later u
 
 config.conf file defined, to specify paths for inputs and outputs throughout scripts when necessary.
 
-Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
+**Note:** Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
 
 **Note:** The scripts were developed in Python 2.
