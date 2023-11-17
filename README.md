@@ -14,6 +14,7 @@ Please note that the article is not yet published, and the details provided are 
 ## Citation
 
 For now, if you use this code in your research or project, please cite it as follows:
+
 Juan-Miguel López-Gil, Nestor Garay-Vitoria (2023) "Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios", Expert Systems with Applications (article submitted for publication)
 
 **Note:** This citation will be updated once the article is published.
