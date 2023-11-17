@@ -14,6 +14,8 @@ Please note that the article is not yet published, and the details provided are 
 ## Citation
 
 For now, if you use this code in your research or project, please cite it as follows:
+
+
 **Note:** This citation will be updated once the article is published.
 
 
@@ -23,5 +25,9 @@ The scripts work assuming that SER databases have been previously parameterized 
 To make them work, create an arff folder and place a file or files with the parameterized databases. In our case, we parameterized them using OpenSmile eGemaps parameterization by command line scripting and placed the generated .arff files in the folder. Details on the codes used for each emotion are writtn in the article.
 
 The scripts are named with digits at the beginning, in which the intended execution order is established. 
+
+Results are stored to specific folders, so the outcomes of each step are later used by the following scripts.
+
+Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
 
 The scripts were developed in Python 2.
