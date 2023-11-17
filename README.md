@@ -1,6 +1,6 @@
 # SER Model Vote Scripts
 
-Scripts for Speech Emotion Recorgnition (SER)
+Scripts for Speech Emotion Recognition (SER)
 
 ## Related Publication
 
