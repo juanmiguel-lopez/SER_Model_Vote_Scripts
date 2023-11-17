@@ -23,6 +23,13 @@ Juan-Miguel López-Gil, Nestor Garay-Vitoria. "Assessing the Effectiveness of En
 
 ## Instructions to make the scripts work
 
+It automates the extraction and comparison of model outcomes. 
+The scripts automatically navigate through these directories, collecting and organizing data pertinent to confusion matrices and classifier outputs. They analyze this data to select optimal classifiers for ensemble methods like voting systems.
+the script combines multiple Weka model predictions against a dataset to produce superior combined results compared to individual models.
+For each classifier, it runs 10-fold cross-validation using the Weka Evaluation class. The predictions and evaluation results are serialized for later use. The cross-validated predictions, probabilities, and evaluation results are extracted and aggregated across the folds. Combined prediction files are output - overall predictions per classifier, and predictions for each instance across classifiers. 
+calculating statistical measures related to model performance.
+The script's functionality includes loading data from JSON files, and CSV files
+
 The scripts work assuming that SER databases have been previously parameterized and the parameterization is stored as a single file in a ./arff folder.
 To make them work, create an arff folder and place a file or files with the parameterized databases. In our case, we parameterized them using OpenSmile eGemaps parameterization by command line scripting and placed the generated .arff files in the folder. Details on the codes used for each emotion are writtn in the article.
 
