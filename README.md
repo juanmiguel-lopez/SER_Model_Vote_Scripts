@@ -43,3 +43,5 @@ Additionally, the configuration of these scripts is managed through a **config.c
 **Note:** Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in .arff format.
 
 **Note:** The scripts were developed in Python 2.
+
+**Note:** The Weka version used was 3.8.2.
