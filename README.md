@@ -34,4 +34,4 @@ config.conf file defined, to specify paths for inputs and outputs throughout scr
 
 Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
 
-The scripts were developed in Python 2.
+**Note:** The scripts were developed in Python 2.
