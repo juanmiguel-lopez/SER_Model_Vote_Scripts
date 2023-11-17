@@ -31,17 +31,15 @@ Furthermore, these scripts calculate statistical measures that are essential for
 
 ## Instructions to make the scripts work
 
-The scripts are intended to work with pre-processed and parameterized Speech Emotion Recognition (SER) databases. This parameterization procedure entails preparing the databases and storing them as files in the **./arff** folder. To use these scripts effectively, users must first create an arff folder. Files containing parameterized databases should be placed in this folder. The databases were parameterized in our specific implementation using OpenSmile eGemaps, a command-line tool for feature extraction. The resulting **.arff** files from this parameterization are saved in the arff folder. The codes used for each emotion analyzed in the SER are described in detail in the associated article.
+The scripts are intended to work with pre-processed and parameterized Speech Emotion Recognition (SER) databases. This parameterization procedure entails preparing the databases and storing them as files in the **arff** folder. To use these scripts effectively, users must first create an arff folder. Files containing parameterized databases should be placed in this folder. The databases were parameterized in our specific implementation using OpenSmile, a command-line tool for feature extraction, with eGemaps acoustic parameter set. The resulting **.arff** files from this parameterization are saved in the arff folder. The codes used for each emotion analyzed in the SER are described in detail in the associated article. There is an **arff** folder in the repository with a sample dataset.
 
-The scripts work assuming that SER databases have been previously parameterized and the parameterization is stored as a single file in a ./arff folder.
-To make them work, create an arff folder and place a file or files with the parameterized databases. In our case, we parameterized them using OpenSmile eGemaps parameterization by command line scripting and placed the generated .arff files in the folder. Details on the codes used for each emotion are writtn in the article.
+The script files are named numerically, indicating the order in which they should be run from the command line. This structured naming convention ensures a systematic and coherent workflow by guiding the user through each step of the process.
 
-The scripts are named with digits at the beginning, in which the intended execution order is established from command line. 
+When the scripts are run, they generate results that are saved to specific folders. This organization ensures that the outputs of each script are easily accessible to the scripts that follow. This approach ensures that the output of each script is seamlessly integrated into the next stage of the analysis.
 
-Results are stored to specific folders, so the outcomes of each step are later used by the following scripts.
+Additionally, the configuration of these scripts is managed through a **config.conf** file passed as an argument to the scripts from command line. This file is required because it specifies the paths for various inputs and outputs used during script execution. This includes the.arff file locations, the path to the Weka.jar file, and the directories where the results of various scripts are stored. The scripts provide a flexible and user-friendly interface for managing the various components of the data processing and analysis pipeline by centralizing these configurations in a single file. We have provided an example in 
+ 
 
-config.conf file defined, to specify paths for inputs (arff files locations, Weka .jar location) and outputs (results of the different scripts) throughout scripts when necessary. 
-
-**Note:** Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
+**Note:** Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in .arff format.
 
 **Note:** The scripts were developed in Python 2.
