@@ -14,7 +14,7 @@ Please note that the article is not yet published, and the details provided are 
 ## Citation
 
 For now, if you use this code in your research or project, please cite it as follows:
-
+Juan-Miguel López-Gil, Nestor Garay-Vitoria (2023) "Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios", Expert Systems with Applications (article submitted for publication)
 
 **Note:** This citation will be updated once the article is published.
 
@@ -27,6 +27,8 @@ To make them work, create an arff folder and place a file or files with the para
 The scripts are named with digits at the beginning, in which the intended execution order is established. 
 
 Results are stored to specific folders, so the outcomes of each step are later used by the following scripts.
+
+config.conf file defined, to specify paths for inputs and outputs throughout scripts when necessary.
 
 Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in arff format.
 
