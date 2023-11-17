@@ -21,14 +21,15 @@ Juan-Miguel López-Gil, Nestor Garay-Vitoria. "Assessing the Effectiveness of En
 **Note:** This citation will be updated once the article is published.
 
 
-## Instructions to make the scripts work
+## Brief description of the scripts
 
-It automates the extraction and comparison of model outcomes. 
-The scripts automatically navigate through these directories, collecting and organizing data pertinent to confusion matrices and classifier outputs. They analyze this data to select optimal classifiers for ensemble methods like voting systems.
-the script combines multiple Weka model predictions against a dataset to produce superior combined results compared to individual models.
-For each classifier, it runs 10-fold cross-validation using the Weka Evaluation class. The predictions and evaluation results are serialized for later use. The cross-validated predictions, probabilities, and evaluation results are extracted and aggregated across the folds. Combined prediction files are output - overall predictions per classifier, and predictions for each instance across classifiers. 
-calculating statistical measures related to model performance.
-The script's functionality includes loading data from JSON files, and CSV files
+This set of scripts is useful for automating the extraction, comparison, and optimization of model outcomes in data science. They navigate directories, and gather and organize data required for confusion matrices and classifier outputs. This includes analyzing such data to determine the best classifiers for ensemble methods, in this case voting classifiers. The scripts combine multiple Weka model predictions against a dataset, yielding superior combined results when compared to individual models.
+
+These scripts use the Weka Evaluation class in their operational process to perform 10-fold cross-validation for each classifier. Serializing predictions and evaluation results for later use, as well as extracting and aggregating cross-validated predictions, probabilities, and evaluation results across folds, are all part of this process. The end result is a comprehensive set of combined prediction files that detail overall predictions per classifier as well as instance-specific predictions across classifiers.
+
+Furthermore, these scripts calculate statistical measures that are essential for evaluating model performance. They can read data in a variety of formats, including JSON and CSV files. Their capabilities include calculating maximum values and combinations from results, used in determining the most effective voting ensemble method for each case. It enables statistics to be computed to compare the accuracy of ensemble methods versus individual classifier performance. Finally, they allow calculating the effectiveness of model combinations and identify opportunities for optimization, assisting in the decision-making process for selecting efficient ensemble methods in data analysis.
+
+## Instructions to make the scripts work
 
 The scripts work assuming that SER databases have been previously parameterized and the parameterization is stored as a single file in a ./arff folder.
 To make them work, create an arff folder and place a file or files with the parameterized databases. In our case, we parameterized them using OpenSmile eGemaps parameterization by command line scripting and placed the generated .arff files in the folder. Details on the codes used for each emotion are writtn in the article.
