@@ -6,6 +6,7 @@ Scripts for Speech Emotion Recognition (SER)
 
 This code was developed in support of the research article titled:
 
+"Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios"
 
 which is currently under review in Expert Systems and Applications journal.
 
