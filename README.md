@@ -31,6 +31,8 @@ Furthermore, these scripts calculate statistical measures that are essential for
 
 ## Instructions to make the scripts work
 
+The scripts are intended to work with pre-processed and parameterized Speech Emotion Recognition (SER) databases. This parameterization procedure entails preparing the databases and storing them as files in the **./arff** folder. To use these scripts effectively, users must first create an arff folder. Files containing parameterized databases should be placed in this folder. The databases were parameterized in our specific implementation using OpenSmile eGemaps, a command-line tool for feature extraction. The resulting **.arff** files from this parameterization are saved in the arff folder. The codes used for each emotion analyzed in the SER are described in detail in the associated article.
+
 The scripts work assuming that SER databases have been previously parameterized and the parameterization is stored as a single file in a ./arff folder.
 To make them work, create an arff folder and place a file or files with the parameterized databases. In our case, we parameterized them using OpenSmile eGemaps parameterization by command line scripting and placed the generated .arff files in the folder. Details on the codes used for each emotion are writtn in the article.
 
