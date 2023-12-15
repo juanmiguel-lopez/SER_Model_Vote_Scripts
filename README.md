@@ -28,8 +28,6 @@ https://doi.org/10.1016/j.eswa.2023.122905.
 ## Code citation:
 
 Juan-Miguel López-Gil (2023) Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios [Source Code]. https://doi.org/10.24433/CO.1788598.v1
-DOI: 10.24433/CO.1788598.v1
-https://codeocean.com/capsule/2894730/tree/v1
 
 
 ## Brief description of the scripts
