@@ -40,17 +40,29 @@ Furthermore, these scripts calculate statistical measures that are essential for
 
 ## Instructions to make the scripts work
 
-The scripts are intended to work with pre-processed and parameterized Speech Emotion Recognition (SER) databases. This parameterization procedure entails preparing the databases and storing them as files in the **arff** folder. To use these scripts effectively, users must first create an arff folder. Files containing parameterized databases should be placed in this folder. The databases were parameterized in our specific implementation using OpenSmile, a command-line tool for feature extraction, with eGemaps acoustic parameter set. The resulting **.arff** files from this parameterization are saved in the arff folder. The codes used for each emotion analyzed in the SER are described in detail in the associated article. There is an **arff** folder in the repository with a sample dataset.
+The scripts are intended to work with pre-processed and parameterized Speech Emotion Recognition (SER) databases. This parameterization procedure entails preparing the databases and storing them as files in the **data/arff** folder. To use these scripts effectively, users must first create an arff folder. Files containing parameterized databases should be placed in this folder. The databases were parameterized in our specific implementation using OpenSmile, a command-line tool for feature extraction, with eGemaps acoustic parameter set. The resulting **.arff** files from this parameterization are saved in the arff folder. The codes used for each emotion analyzed in the SER are described in detail in the associated article. There is an **data/arff** folder in the repository with a sample dataset.
 
 The script files are named numerically, indicating the order in which they should be run from the command line. This structured naming convention ensures a systematic and coherent workflow by guiding the user through each step of the process.
 
 When the scripts are run, they generate results that are saved to specific folders. This organization ensures that the outputs of each script are easily accessible to the scripts that follow. This approach ensures that the output of each script is seamlessly integrated into the next stage of the analysis.
 
 Additionally, the configuration of these scripts is managed through a **config.conf** file passed as an argument to the scripts from command line. This file is required because it specifies the paths for various inputs and outputs used during script execution. This includes the.arff file locations, the path to the Weka.jar file, and the directories where the results of various scripts are stored. The scripts provide a flexible interface for managing the various components of the data processing and analysis pipeline by centralizing these configurations in a single file. We have provided an example in **config.conf** in **scripts** folder, that needs to be customize for the specific execution environment. 
+
+There is a **run** file in the repo that can execute all scripts sequentially. Results will be stored in a **result** directory.
+
  
 
 **Note:** Even though the script were developed for SER analysis, the scripts can be used for any kind of database, as long as they are in .arff format.
 
+**Note:** The Weka version used was 3.8.2. 
+
 **Note:** The scripts were developed in Python 2.
 
-**Note:** The Weka version used was 3.8.2.
+**Note:** Additional dependencies include:
+openjdk-8-jdk
+javabridge 1.0.19
+pathlib2 2.3.7.post1
+pyparsing 2.2.0
+python-weka-wrapper 0.3.18
+setuptools 44.1.1
+xlwt 1.3.0
