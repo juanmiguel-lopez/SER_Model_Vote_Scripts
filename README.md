@@ -8,12 +8,12 @@ This code was developed in support of the research article titled:
 
 "Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios"
 
-which is currently under review in Expert Systems and Applications journal.
+published in Expert Systems and Applications journal.
 
-Please note that the article is not yet published, and the details provided are subject to change upon publication. The code in this repository reflects the methodologies and results as presented in the manuscript. Once the article is published, this section will be updated with the full citation and a link to the published work (if available).
 
 ## Citation
 
+Article citation:
 Juan-Miguel López-Gil, Nestor Garay-Vitoria,
 Assessing the effectiveness of ensembles in Speech Emotion Recognition: Performance analysis under challenging scenarios,
 Expert Systems with Applications,
@@ -24,6 +24,11 @@ https://doi.org/10.1016/j.eswa.2023.122905.
 (https://www.sciencedirect.com/science/article/pii/S0957417423034073)
 
 **Note:** This citation will be updated once the article is published.
+
+Code citation:
+Juan-Miguel López-Gil (2023) Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios [Source Code]. https://doi.org/10.24433/CO.1788598.v1
+DOI: 10.24433/CO.1788598.v1
+https://codeocean.com/capsule/2894730/tree/v1
 
 
 ## Brief description of the scripts
