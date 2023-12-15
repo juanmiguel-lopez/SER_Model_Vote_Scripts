@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+
+python -u scripts/01_Create_Weka_Base_Models.py scripts/config/sample.conf
+   
+python -u scripts/02_Confusion_Matrices_Outcome.py scripts/config/sample.conf
+  
+python -u scripts/03_Select_Classifiers_for_Voting.py scripts/config/sample.conf
+ 
+python -u scripts/04_Classifier_Evaluation_Instances.py scripts/config/sample.conf
+   
+python -u scripts/05_Process_CV_Model_Outcomes.py scripts/config/sample.conf
+  
+python -u scripts/06_Load_JSON_Process_CV_Model_Outcomes.py scripts/config/sample.conf
+
+python -u scripts/07_Best_Vote_Combination.py scripts/config/sample.conf
