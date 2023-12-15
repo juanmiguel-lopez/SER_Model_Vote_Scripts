@@ -14,9 +14,14 @@ Please note that the article is not yet published, and the details provided are 
 
 ## Citation
 
-For now, if you use this code in your research or project, please cite it as follows:
-
-Juan-Miguel López-Gil, Nestor Garay-Vitoria. "Assessing the Effectiveness of Ensembles in Speech Emotion Recognition: Performance Analysis under Challenging Scenarios", Expert Systems with Applications (article submitted for publication)
+Juan-Miguel López-Gil, Nestor Garay-Vitoria,
+Assessing the effectiveness of ensembles in Speech Emotion Recognition: Performance analysis under challenging scenarios,
+Expert Systems with Applications,
+2023,
+122905,
+ISSN 0957-4174,
+https://doi.org/10.1016/j.eswa.2023.122905.
+(https://www.sciencedirect.com/science/article/pii/S0957417423034073)
 
 **Note:** This citation will be updated once the article is published.
 
